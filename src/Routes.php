@@ -6,10 +6,5 @@ return [
         '/',
         'App\Homepage\Controller\IndexController#show'
     ],
-    [
-        'GET',
-        '/postcode',
-        'App\PostcodeChecker\Controller\PostcodeCheckerController#show'
-    ]
     ];
     
